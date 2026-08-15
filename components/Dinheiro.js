@@ -39,12 +39,12 @@ export default function Dinheiro({ etapa, c, docAprovado, aprovar }) {
       liberado: docAprovado,
     },
     {
-      id: 'ainfast',
-      nome: `AinFast, ${Math.round(comissao * 100)}% dos itens`,
+      id: 'plataforma',
+      nome: `Plataforma, ${Math.round(comissao * 100)}% dos itens`,
       icone: <IconeMarca tamanho={14} />,
       doc: 'comissão da plataforma',
       sub: 'sc_a10002',
-      valor: c.taxaAinfast,
+      valor: c.taxaPlataforma,
       cor: 'tinta',
       liberado: true,
     },
@@ -65,7 +65,7 @@ export default function Dinheiro({ etapa, c, docAprovado, aprovar }) {
         <p className="aviso-custodia">
           <IconeCadeado tamanho={14} />
           {pago
-            ? 'O valor está preso no gateway, em nome do pedido. Não entra na conta bancária da AinFast em momento nenhum, e é isso que evita que vocês precisem de licença para guardar dinheiro dos outros.'
+            ? 'O valor está preso no gateway, em nome do pedido. Não entra na conta bancária da plataforma em momento nenhum, e é isso que evita que vocês precisem de licença para guardar dinheiro dos outros.'
             : 'Mexa no carrinho do celular e este número acompanha. Enquanto o PIX não confirma, não existe dinheiro para dividir.'}
         </p>
       </div>
@@ -134,7 +134,7 @@ export default function Dinheiro({ etapa, c, docAprovado, aprovar }) {
           <p className="aviso-custodia" style={{ marginTop: 14 }}>
             <IconeAlerta tamanho={14} />
             {repassado
-              ? 'Três destinos, três documentos, um pedido só. A soma bate no centavo com o que a Bruna pagou, e nenhum centavo passou por uma conta da AinFast no caminho.'
+              ? 'Três destinos, três documentos, um pedido só. A soma bate no centavo com o que a Bruna pagou, e nenhum centavo passou por uma conta comum da plataforma no caminho.'
               : 'A divisão acontece dentro do gateway, no mesmo instante do repasse. Se ela acontecer depois, por transferência manual, vocês viram banco sem ser banco.'}
           </p>
         )}

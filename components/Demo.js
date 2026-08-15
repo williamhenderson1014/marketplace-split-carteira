@@ -89,7 +89,7 @@ export default function Demo() {
           <span className="marca">
             <IconeMarca tamanho={30} />
             <span>
-              <b>AinFast</b>
+              <b>Marketplace com repasse</b>
               <span>maquete de leitura do projeto</span>
             </span>
           </span>
@@ -131,8 +131,8 @@ export default function Demo() {
           A troca de perfil não é uma tela. É <em>qual carteira responde</em>.
         </h1>
         <p>
-          Esta é uma leitura do que vocês descreveram, montada para testar uma decisão só. O Rafael
-          tem uma conta na AinFast. Nesta noite ele vende pela Moura Burger e entrega o próprio
+          Esta maquete existe para testar uma decisão só. O Rafael
+          tem uma conta na plataforma. Nesta noite ele vende pela Moura Burger e entrega o próprio
           pedido, porque a Bruna mora a 2,4 km da loja. Acompanhe o pedido 4471 pelos três perfis e
           olhe o que acontece embaixo, no dinheiro.
         </p>
@@ -305,7 +305,7 @@ export default function Demo() {
             preço. Tudo roda no seu navegador.
           </p>
           <div className="rodape-linha">
-            <strong>AinFast, maquete de leitura</strong>
+            <strong>Maquete de arquitetura</strong>
             <span>uma conta, três perfis, um pedido</span>
             <span style={{ marginLeft: 'auto' }} className="num">
               2026

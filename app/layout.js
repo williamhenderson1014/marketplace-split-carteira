@@ -9,7 +9,7 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'AinFast · uma conta, três perfis, um pedido',
+  title: 'Marketplace com repasse · uma conta, três perfis, um pedido',
   description:
     'Maquete de um marketplace de delivery com três perfis na mesma conta, seguindo um pedido do carrinho até o repasse dividido por documento. Dados inventados, sem backend.',
 }

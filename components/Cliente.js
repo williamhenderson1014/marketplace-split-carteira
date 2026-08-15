@@ -137,10 +137,10 @@ export default function Cliente({ etapa, itens, mudarItem, c, t, pausar }) {
               <QrPix />
               <div className="copia">
                 <IconeCerto tamanho={13} />
-                00020126580014BR.GOV.BCB.PIX0136ainfast4471
+                00020126580014BR.GOV.BCB.PIX0136demo00004471
               </div>
               <p style={{ fontSize: 12.5, color: 'var(--suave)', margin: '14px 0 0' }}>
-                Pagando <b className="num">R$ {reais(c.total)}</b> para AinFast Pagamentos, o valor
+                Pagando <b className="num">R$ {reais(c.total)}</b> para Gateway Pagamentos, o valor
                 fica retido no gateway até a entrega fechar.
               </p>
               <div
@@ -300,7 +300,7 @@ export default function Cliente({ etapa, itens, mudarItem, c, t, pausar }) {
             )}
             {etapa === 1 && (
               <p style={{ margin: 0 }}>
-                O PIX é gerado contra o gateway, não contra a conta da AinFast. Enquanto o pedido não
+                O PIX é gerado contra o gateway, não contra a conta da plataforma. Enquanto o pedido não
                 fecha, o valor não é de ninguém ainda.
               </p>
             )}
@@ -348,7 +348,7 @@ export default function Cliente({ etapa, itens, mudarItem, c, t, pausar }) {
               <span>{cliente.pagamento}</span>
             </div>
             <p className="fora-escopo" style={{ marginTop: 12 }}>
-              <IconeSeta tamanho={13} /> A conta de quem compra é uma conta comum da AinFast. É a
+              <IconeSeta tamanho={13} /> A conta de quem compra é uma conta comum da plataforma. É a
               mesma conta que pode virar loja ou motorista depois, sem cadastro novo.
             </p>
           </div>

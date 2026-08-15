@@ -179,7 +179,7 @@ export default function Motorista({ etapa, c, t, docAprovado }) {
                 <IconeCerto tamanho={13} /> Subconta aprovada
               </b>
               O saque agora sai direto para o {subcontas.motorista.documento}, sem passar pela conta
-              da loja e sem passar pela AinFast.
+              da loja e sem passar pela plataforma.
             </div>
           )}
         </div>
